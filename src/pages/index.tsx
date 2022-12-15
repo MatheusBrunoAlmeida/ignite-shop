@@ -5,11 +5,13 @@ import { useKeenSlider } from 'keen-slider/react'
 import Stripe from 'stripe'
 
 import { stripe } from "../lib/stripe";
-import { HomeContainer, Product } from "../styles/pages/home";
+import { ButtonSeta, HomeContainer, Product } from "../styles/pages/home";
 
 import 'keen-slider/keen-slider.min.css'
 import Link from "next/link";
 import Head from "next/head";
+
+import setaIcon from '../assets/seta.svg'
 
 interface HomeProps {
   products: {
@@ -23,7 +25,7 @@ interface HomeProps {
 export default function Home({ products }: HomeProps) {
   const [sliderRef] = useKeenSlider({
     slides: {
-      perView: 3,
+      perView: 2,
       spacing: 48
     }
   })
@@ -49,6 +51,9 @@ export default function Home({ products }: HomeProps) {
             </Link>
           )
         })}
+        <ButtonSeta>
+          <Image src={setaIcon} width={45} height={45} alt="" />
+        </ButtonSeta>
       </HomeContainer>
     </>
   )

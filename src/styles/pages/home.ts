@@ -62,3 +62,14 @@ export const Product = styled('a', {
         }
     }
 });
+
+export const ButtonSeta =styled('div',{
+    position: 'absolute',
+    padding: '1rem',
+    right: 10,
+    top: '15rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '100px',
+})
