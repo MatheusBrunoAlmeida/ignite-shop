@@ -1,0 +1,13 @@
+.c-cBZdeJ {
+    animation: 0.5s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 10;
+    }
+}

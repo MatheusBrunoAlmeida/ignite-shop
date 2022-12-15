@@ -5,6 +5,8 @@ import logoImg from '../assets/logo.svg'
 import { Container, Header } from '../styles/pages/app'
 import Image from 'next/image'
 
+import '../styles/global.css'
+
 globalStyles()
 
 export default function App({ Component, pageProps }: AppProps) {
