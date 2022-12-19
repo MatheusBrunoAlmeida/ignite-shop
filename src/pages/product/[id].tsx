@@ -108,6 +108,6 @@ export const getStaticProps: GetStaticProps<any, { id: string }> = async ({ para
                 defaultPriceId: price.id
             }
         },
-        revalidate: 60 * 60 * 1 // 1 hours
+        revalidate: 60 * 60 * 1 //2 hours
     }
 }
