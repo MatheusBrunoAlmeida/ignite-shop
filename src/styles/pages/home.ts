@@ -19,7 +19,6 @@ export const Product = styled('a', {
     alignItems: 'center',
     justifyContent: 'center',
 
-
     img: {
         objectFit: 'cover',
     },
@@ -63,7 +62,7 @@ export const Product = styled('a', {
     }
 });
 
-export const ButtonSeta =styled('div',{
+export const ButtonSeta = styled('div', {
     position: 'absolute',
     padding: '1rem',
     right: 10,

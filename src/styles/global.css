@@ -2,6 +2,64 @@
     animation: 0.5s infinite alternate slidein;
 }
 
+@media(max-width: 700px) {
+    .c-kNnrkx{
+        padding: 2rem 1rem;
+    }
+
+    .c-dMrVJJ footer{
+        transform: translate(0%);
+        opacity: 1;
+    }
+
+    .c-gNdlOx{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .c-hJfWvu{
+        padding: 1rem 3rem;
+    }
+
+    .c-hJfWvu button{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 450px) {
+    .c-ghNCtp {
+        padding: 0;
+        min-height: 550px !important;
+    }
+
+    .c-ghNCtp img{
+        width: 300px !important;    
+        height: auto;
+    }
+
+    .c-dMrVJJ footer strong{
+        font-size: 1rem;
+    }
+
+    .c-dMrVJJ footer span{
+        font-size: 1rem;
+    }
+
+    .c-hJfWvu{
+        padding: 1rem 1rem;
+    }
+
+    .c-cfIsNd{
+        width: 90%;
+        height: 400px;
+    }
+
+    .c-cfIsNd img{
+        width: 300px;
+        height: auto;
+    }
+}
+
 @keyframes slidein {
     from {
         right: 0;

@@ -13,6 +13,8 @@ import Head from "next/head";
 
 import setaIcon from '../assets/seta.svg'
 
+import style from '../styles/Home.module.css'
+
 interface HomeProps {
   products: {
     id: string;
@@ -24,9 +26,16 @@ interface HomeProps {
 
 export default function Home({ products }: HomeProps) {
   const [sliderRef] = useKeenSlider({
+    breakpoints: {
+      "(min-width: 700px)": {
+        slides: { perView: 1, spacing: 48 },
+      },
+      "(min-width: 1000px)": {
+        slides: { perView: 2, spacing: 48 },
+      },
+    },
     slides: {
-      perView: 2,
-      spacing: 48
+      perView: 1,
     }
   })
 
@@ -55,6 +64,28 @@ export default function Home({ products }: HomeProps) {
           <Image src={setaIcon} width={45} height={45} alt="" />
         </ButtonSeta>
       </HomeContainer>
+
+      {/* <HomeContainerMobile
+        className="cards-responsive"
+      >
+        {products.map(product => {
+          return (
+            <Link href={`/product/${product.id}`} key={product.id} prefetch={false}>
+              <Product>
+                <Image src={product.imageUrl} width={520} height={480} alt="" />
+
+                <footer>
+                  <strong>{product.name}</strong>
+                  <span>{product.price}</span>
+                </footer>
+              </Product>
+            </Link>
+          )
+        })}
+        <ButtonSeta>
+          <Image src={setaIcon} width={45} height={45} alt="" />
+        </ButtonSeta>
+      </HomeContainerMobile> */}
     </>
   )
 }

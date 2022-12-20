@@ -28,5 +28,11 @@ export const {
             xl: '1.5rem',
             '2xl': '2rem',
         }
-    }
+    },
+    media: {
+        sms: '(min-width: 400px)',
+        sm: '(min-width: 500px)',
+        md: '(min-width: 768px)',
+        lg: '(min-width: 1024px)',
+    },
 })
