@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <a href="#"> Ignite Shop </a>
+</h1>
 
-## Getting Started
+<p align="center"> Uma loja digital.. </p>
 
-First, run the development server:
+<p align="center">
+ <a href="#-about">About</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-tech-stack">Tech Stack</a> • 
+ <a href="#-author">Author</a> • 
+ <a href="#-license">License</a>
+
+</p>
+
+## 💻 Sobre:
+
+Esta aplicação é uma de loja de roupas integrada com o gateway de pagamento Stripe.
+
+As tecnologias utilizadas foram:
+
+- NextJS;
+- Stiches
+- Typescript 
+
+---
+## 🎨 Layout
+
+O layout da aplicação está disponível no Figma:
+
+<a href="https://www.figma.com/file/kBmbBqHWIf5Ww9ydgb5KK8/Ignite-Shop-2.0-(Copy)?node-id=0%3A1">
+  <img alt="Made by milenakmartins" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a>
+
+<br>
+<br>
+
+## 🚀 Como executar o projeto.
+
+Este projeto é divido em uma parte:
+1
+💡O Backend deve estar rodando em sua máquina para que o frontend seja reenderizado.
+)
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+<br>
+
+#### 🎲 Rodando a aplicação (Frontend) 
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone este repositório
+$ https://github.com/JoaoAlberto20/ignite-shop.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd + sua pasta + git clone git@github.com:JoaoAlberto20/ignite-shop.git
+
+# Instale as dependências com:
+$ npm install
+
+# Rode a aplicação em modo de desenvolvimento:
+$ npm run dev
+
+# O servidor inciará na porta:3000 - acesse <   localHost:3000
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tecnologias
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Next
+- Stitches
+- Striper
+- Radix
+- Context API
+- TypeScript
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
+## Deploy do projeto.
+https://ignite-shop-ruby.vercel.app/
 
-## Learn More
+---
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is under the license [MIT](./LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by João Alberto np da silva  [Get in Touch!](https://www.linkedin.com/in/joaoalbertosvcode)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
