@@ -53,5 +53,5 @@ CVC: 123
 ```
 
 ---
-<a href="ignite-shop-sepia.vercel.app">Demo do projeto:</a>
+<a href="https://ignite-shop-sepia.vercel.app">Demo do projeto:</a>
 ---
